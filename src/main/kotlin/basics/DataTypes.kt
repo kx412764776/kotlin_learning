@@ -1,3 +1,5 @@
+package basics
+
 fun main() {
     // int number = 18;
     var number: Int = 18

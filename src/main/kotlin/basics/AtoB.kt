@@ -1,3 +1,5 @@
+package basics
+
 fun main() {
     val number = "10"
     println(10 + number.toInt())
