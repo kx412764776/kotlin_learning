@@ -15,4 +15,12 @@ fun main() {
     // val msg = "${name} ${age}"
      val msg = "Name: $name Age: $age"
     println(msg)
+
+    val msg2 = """
+        Hello %s
+        How
+        Are you
+    """.trimIndent()
+
+    println(msg2.format("Ana"))
 }
