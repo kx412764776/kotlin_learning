@@ -2,7 +2,11 @@ package loops
 
 fun main() {
     val brand = "selfridges"
+    for (letter in brand.toCharArray()) {
+        print("$letter ")
+    }
+    println()
     for (letter in brand) {
-        println(letter)
+        print("$letter ")
     }
 }
