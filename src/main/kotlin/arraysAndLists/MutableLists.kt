@@ -32,6 +32,4 @@ fun main() {
     val emptyList = mutableListOf<Any>()
     println(emptyList)
     println(emptyList.isEmpty())
-
-
 }
