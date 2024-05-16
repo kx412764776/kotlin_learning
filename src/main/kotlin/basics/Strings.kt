@@ -25,4 +25,19 @@ fun main() {
     """.trimIndent()
 
     println(msg2.format("Ana"))
+
+    println("==============")
+    val msg3 = "Hello"
+    val tripleQuotedString = """
+        #msg = "$msg3"
+    """.trimMargin("#")
+    println(tripleQuotedString)
+
+    println("==============")
+
+    val month = "(JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)"
+
+    fun getPattern(): String = """\d{2} $month \d{4}"""
+
+    println(getPattern())
 }

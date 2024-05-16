@@ -16,14 +16,14 @@ fun main() {
     } else {
         println("not found")
     }
-
+    
     // method 2
     val arrayOfNulls = arrayOfNulls<String>(5)
-
+    
     arrayOfNulls[4] = "hello"
     println(arrayOfNulls.contentToString())
 
     arrayOfNulls.fill("*")
     println(arrayOfNulls.contentToString())
-
+    
 }
